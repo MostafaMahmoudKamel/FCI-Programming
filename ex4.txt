@@ -1,0 +1,26 @@
+/*
+ Write a program that reads an integer, and then prints the sum of the even and odd digits. 
+*/
+#include <stdio.h>
+int main()
+{
+	int num;
+	int sume = 0;
+	int sumo = 0;
+	int rang;
+	printf("enter rang\n");
+	scanf_s("%d", &rang);
+	for (size_t i = 0; i < rang; i++)
+	{
+		printf("enter num\n");
+			scanf_s("%d", &num);
+			if (num % 2 == 0)
+				sume += num;
+			else
+				sumo += num;
+	}
+	printf("sum oe even num=%d\n", sume);
+	printf("sum oe odd num=%d\n", sumo);
+
+
+}

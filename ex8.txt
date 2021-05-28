@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main()
+{
+	int product, quantity,s=0;
+	for (int i = 1; i <= 5; i++)
+	{
+		printf("enter num of product\n");
+		scanf_s("%d", &product);
+		printf("enter num of quantity\n");
+		scanf_s("%d", &quantity);
+		switch (product)
+		{
+		case 1:
+			s = quantity * 100;
+			break;
+		case 2:
+			s= quantity * 10;
+			break;
+		case 3:
+			s = quantity * 300;
+			break;
+		case 4:
+			s= quantity * 1000;
+			break;
+		case 5:
+			s = quantity * 600;
+			break;
+		
+
+		}
+		printf("price1=%d",s );

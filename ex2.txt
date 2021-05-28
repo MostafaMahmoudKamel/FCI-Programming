@@ -1,0 +1,18 @@
+/*
+Write program to read set of numbers and print the sum of the number, if sum >=200 then print sum and end the program .
+
+*/
+#include<stdio.h>
+int main()
+{
+	
+	for (int sum = 0; sum <= 200; sum++)
+	{
+		int num;
+		printf("enter num\n");
+		scanf_s("%d", &num);
+		sum += num;
+		printf("sum=%d\n", num);
+
+	}
+}
